@@ -1,0 +1,38 @@
+{
+    "content": null,
+    "embeds": [
+      {
+        "title": "🛣️ Prix des carburants mis à jour  🛣️",
+        "description": "**⛽️ Stations synchronisées **\n> {nbstations} stations\n\n**📊 Prix moyens **",
+        "color": 5814783,
+        "fields": [
+          {
+            "name": "> Gazole",
+            "value": "> {pmoygazole} €",
+            "inline": true
+          },
+          {
+            "name": "> E85",
+            "value": "> {pmoye85} €",
+            "inline": true
+          },
+          {
+            "name": "> E10",
+            "value": "> {pmoye10} €",
+            "inline": true
+          },
+          {
+            "name": "Un problème de synchronisation ?",
+            "value": "[Utilisez ce formulaire](https://forms.gle/formslink)"
+          }
+        ],
+        "footer": {
+          "text": "Waze France",
+          "icon_url": "https://i.imgur.com/QafrZTx.png"
+        }
+      }
+    ],
+    "username": "WazeFuel",
+    "avatar_url": "https://i.imgur.com/yakvwV8.png",
+    "attachments": []
+}
